@@ -18,6 +18,7 @@ This repository serves as a centralized location for TIA Portal documentation an
   - `/program-blocks/organization-blocks/`: Organization Blocks (OB) documentation
   - `/program-blocks/tool-blocks/`: Tool Function Blocks (TB) and Tool Functions (TC)
   - `/program-blocks/safety/`: Safety-related blocks and administration
+  - `/program-blocks/combined/`: Complete documentation split into manageable files
 
 - `/protocols/`: Protocol documentation and specifications
 
@@ -40,7 +41,8 @@ The repository contains exported documentation from TIA Portal, including:
 
 1. **Browse Documentation**: Navigate through the directory structure to find the documentation you need.
 2. **Download Files**: Each folder contains README files with details about the available documentation.
-3. **Add Documentation**: See [CONTRIBUTING.md](./CONTRIBUTING.md) for instructions on how to add your own documentation.
+3. **Combined Documentation**: For a complete set of all program blocks, check the `/program-blocks/combined/` directory which contains the entire documentation split into manageable PDF files (each under 20MB).
+4. **Add Documentation**: See [CONTRIBUTING.md](./CONTRIBUTING.md) for instructions on how to add your own documentation.
 
 ## Adding Large Files
 
@@ -49,7 +51,7 @@ Due to GitHub file size limitations (25MB for standard uploads, 100MB for Git LF
 1. For files up to 100MB, use Git Large File Storage (LFS)
 2. For files over 100MB, consider splitting them into smaller parts or hosting them externally
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions and [GIT_LFS_SETUP.md](./GIT_LFS_SETUP.md) for Git LFS setup.
 
 ## Documentation Standards
 
@@ -66,7 +68,7 @@ For working with TIA Portal documentation:
 
 1. TIA Portal V16 or later recommended for exporting documentation
 2. Use PDF format for maximum compatibility
-3. For large exports, consider using the "Split PDFs" option in TIA Portal print settings
+3. For large exports, consider using the "Split PDFs" option in TIA Portal print settings, as was done for the files in the `/program-blocks/combined/` directory
 
 ## Contact
 
