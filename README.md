@@ -1,6 +1,13 @@
 # TIA Portal Documentation
 
-This repository contains documentation and resources for TIA Portal projects.
+This repository serves as a centralized location for TIA Portal documentation and resources. It provides a structured way to organize and access various documentation related to TIA Portal projects.
+
+## Repository Purpose
+
+- To maintain consistent documentation for TIA Portal projects
+- To provide easy access to documentation for team members
+- To version control documentation alongside code
+- To establish documentation standards for TIA Portal projects
 
 ## Structure
 
@@ -29,10 +36,38 @@ The repository contains exported documentation from TIA Portal, including:
 - Protocol specifications
 - System layouts and diagrams
 
-## Available Documentation
+## How to Use This Repository
 
-For large PDF files, please check the file descriptions for download links.
+1. **Browse Documentation**: Navigate through the directory structure to find the documentation you need.
+2. **Download Files**: Each folder contains README files with details about the available documentation.
+3. **Add Documentation**: See [CONTRIBUTING.md](./CONTRIBUTING.md) for instructions on how to add your own documentation.
 
-## Note
+## Adding Large Files
 
-Due to GitHub file size limitations (100MB per file), some large documentation files may need to be downloaded separately or accessed via external links.
+Due to GitHub file size limitations (25MB for standard uploads, 100MB for Git LFS), large documentation files need special handling:
+
+1. For files up to 100MB, use Git Large File Storage (LFS)
+2. For files over 100MB, consider splitting them into smaller parts or hosting them externally
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
+
+## Documentation Standards
+
+To maintain consistency:
+
+1. Use clear and descriptive filenames
+2. Place files in the appropriate directory based on content
+3. Update README files with descriptions of added documentation
+4. Include version numbers and dates when applicable
+
+## Local Setup for Documentation Work
+
+For working with TIA Portal documentation:
+
+1. TIA Portal V16 or later recommended for exporting documentation
+2. Use PDF format for maximum compatibility
+3. For large exports, consider using the "Split PDFs" option in TIA Portal print settings
+
+## Contact
+
+If you have questions about this repository or need assistance with TIA Portal documentation, please open an issue in this repository.
